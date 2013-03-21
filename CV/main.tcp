@@ -6,7 +6,7 @@ Version=4
 MainFile=main.tex
 UseBibTeX=0
 UseMakeIndex=0
-ActiveProfile=LaTeX => PDF Sumatra
+ActiveProfile=LaTeX => PDF Sumatra2
 ProjectLanguage=de
 ProjectDialect=DE
 
