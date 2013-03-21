@@ -5,7 +5,7 @@ Version=2
 [SessionInfo]
 ActiveTab=0
 FrameCount=3
-ActiveFrame=2
+ActiveFrame=1
 
 [Frame0]
 Columns=1
