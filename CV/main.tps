@@ -5,13 +5,13 @@ Version=2
 [SessionInfo]
 ActiveTab=0
 FrameCount=3
-ActiveFrame=0
+ActiveFrame=2
 
 [Frame0]
 Columns=1
 Rows=1
-Flags=2
-ShowCmd=3
+Flags=0
+ShowCmd=1
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-8
@@ -24,17 +24,17 @@ Class=CLatexEdit
 Document=cv10.tex
 
 [Frame0_Row0]
-cyCur=607
+cyCur=159
 cyMin=10
 
 [Frame0_Col0]
-cxCur=520
+cxCur=884
 cxMin=10
 
 [Frame0_View0,0]
-Cursor.row=122
-Cursor.column=29
-TopSubLine=126
+Cursor.row=0
+Cursor.column=0
+TopSubLine=0
 
 [Frame1]
 Columns=1
