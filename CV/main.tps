@@ -5,7 +5,7 @@ Version=2
 [SessionInfo]
 ActiveTab=0
 FrameCount=3
-ActiveFrame=1
+ActiveFrame=0
 
 [Frame0]
 Columns=1
@@ -32,9 +32,9 @@ cxCur=884
 cxMin=10
 
 [Frame0_View0,0]
-Cursor.row=0
-Cursor.column=0
-TopSubLine=0
+Cursor.row=85
+Cursor.column=21
+TopSubLine=90
 
 [Frame1]
 Columns=1
