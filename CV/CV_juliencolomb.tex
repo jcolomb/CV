@@ -1,0 +1,178 @@
+
+%   Pour une impression A4
+%   - Utiliser la taille de charact�re 12pt dans \documentclass
+%   - Mettre en commentaire les instructions "Page format for reduction to A5"
+%
+%   Pour une impression A5 (reduction de 71% � partir d'une A4
+%   - Utiliser la taille de charact�re 14pt dans \documentclass
+%   - Utiliser les instructions "Page format for reduction to A5"
+
+
+%---Page format for reduction to A4---
+
+\documentclass[a4paper,12pt,twoside]{book}
+\setlength{\voffset}{-5mm} \setlength{\topmargin}{0pt}
+\setlength{\oddsidemargin}{0pt} \setlength{\evensidemargin}{0pt}
+\setlength{\marginparsep}{0pt} \setlength{\marginparwidth}{0pt}
+\setlength{\textwidth}{160mm} \setlength{\textheight}{242mm}
+\renewcommand{\baselinestretch}{1}
+
+%---End - Page format for reduction to A4---
+
+%EN A5
+%\documentclass[a5paper,9pt,oneside]{extbook}
+%\setlength{\voffset}{-3mm} \setlength{\topmargin}{0pt}
+%\setlength{\oddsidemargin}{0mm}
+%\setlength{\evensidemargin}{59.1mm} \setlength{\marginparsep}{0pt}
+%\setlength{\marginparwidth}{0pt} \setlength{\textwidth}{100mm}
+%\setlength{\textheight}{150mm}
+
+
+%\usepackage{amsfonts,amssymb,t1enc,color,amscd,amsmath}
+\usepackage{amsfonts,amssymb,color,amscd,amsmath}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+%\usepackage{times}
+\usepackage{euscript}
+%\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage[english]{babel}\frenchspacing
+\usepackage[latin1]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{dpfloat}
+\usepackage{lastpage}
+%: Bibliography-related packages
+\usepackage{natbib} % To collapse citations in the bibliography
+%\usepackage{lineno}
+
+\usepackage{fancyhdr}
+
+\newenvironment {legende} [1] {\footnotesize\itshape}
+
+\renewcommand\captionfont{\itshape\small}
+\newcommand{\vect}[1]{\emph{\textbf{#1}}}
+\newcommand{\FFT}{\text{FFT}}
+\newcommand{\FT}{\text{FT}}
+\graphicspath{{Figures/}} %%% A ENLEVER POUR SOUMETTRE LA PUBLICATION. METTRE TOUTES LES FIGURES DANS LE REPERTOIRE SOURCE!!!
+
+%---Header and footer format---
+%\fancypagestyle{fancy}
+
+
+
+
+%\fancypagestyle{plain}{\fancyhf{}       %Defines the plain style as it is taken for the 1st chapter pages
+%\renewcommand{\headrulewidth}{0pt}}
+
+	\pagestyle {fancy}
+
+	\fancyhead{} % clear all header fields
+	\fancyhead[LE,RO]{"CV of Dr. rer. nat. Julien Colomb"}
+	%\fancyhead[LO,RE]{\slshape \leftmark}
+	\fancyfoot{} % clear all footer fields
+	\fancyfoot[C]{  page \thepage }%~out of \pageref{LastPage} }
+	\renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand{\footrulewidth}{0pt}
+
+%\cfoot {Part B, \thesection page \thepage ~out of X}
+
+\makeatletter                           %Deletes the header on the empty pages before the chapter beginning
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+   \hbox{}%
+   \thispagestyle{empty}%              % Empty header styles
+   \newpage%
+   \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+%---End - Header and footer format---
+
+%       BIBLIOGRAPHY
+%---------------------------------------------------------------------
+%\nocite{*}
+%\bibliographystyle{osa}
+%\bibliographystyle{alpha}
+%\bibliographystyle{acm}
+\bibliographystyle{apalike}
+%\bibliographystyle{plainnat}
+%\bibliographystyle{acm}
+
+\begin{document}
+%%\include{Title}
+%\include{TitleA4}
+%\include{dedicace}
+\frontmatter  %%% Concerne la numerotation des pages en preface %%%
+%\tableofcontents
+%%\listoffigures
+%%\linenumbers %%%concerne la num�rotation des lignes
+%\include{Resume}
+%%\linenumbers* %%%concerne la num�rotation des lignes
+%\include{Abstract}
+%\mainmatter   %%% Concerne la numerotation des pages principales
+%%\linenumbers* %%%concerne la num�rotation des lignes
+%\include{General_Introduction}
+%%\linenumbers* %%%concerne la num�rotation des lignes
+%%\include{Material_and_methods}
+%\include{Architecture}
+%%\linenumbers* %%%concerne la num�rotation des lignes
+%\include{Genetic_dissection}
+%%\linenumbers* %%%concerne la num�rotation des lignes
+%\include{Complex_behaviour}
+%%\linenumbers* %%%concerne la num�rotation des lignes
+%\include{A_role_for_NO}
+%%\linenumbers* %%%concerne la num�rotation des lignes
+%\include{Conclusion}
+%%\nolinenumbers %%%concerne la num�rotation des lignes
+
+%
+%\addcontentsline{toc}{chapter}{Appendix} 
+%\addcontentsline{toc}{section}{Bibliography} \small
+%\bibliography{librairie_julien2}
+%\normalsize
+
+%%%________________________________________________________________________________
+%%\begin{thebibliography}{Yam01b}
+%%\small
+%%\newcommand{\enquote}[1]{``#1''}
+%%\providecommand{\bibinfo}[2]{#2}
+%%
+%%\bibitem[Ahn05]{Ahn:05}
+%%\bibinfo{author}{A.~Ahn}, \bibinfo{author}{C.~Yang}, \bibinfo{author}{A.~Wax},
+%%  \bibinfo{author}{G.~Popescu}, \bibinfo{author}{C.~Fang-Yen},
+%%  \bibinfo{author}{K.~Badizadegan}, \bibinfo{author}{R.~R. Dasari} and
+%%  \bibinfo{author}{M.~S. Feld}.
+%%\newblock \enquote{\bibinfo{title}{Harmonic phase-dispersion microscope with a
+%%  Mach-Zehnder interferometer}}.
+%%\newblock \bibinfo{journal}{Appl. Opt.}
+%%  \textbf{\bibinfo{volume}{44}}(\bibinfo{number}{7}):
+%%  \bibinfo{pages}{1188--1190} (\bibinfo{year}{2005}).
+%%
+%%\end{thebibliography}
+%%_______________________________________________________________________________
+%%\begin{appendix}
+%    \addcontentsline{toc}{section}{Abbreviations}\include{Abbreviations}
+ %\include{Frontpage}
+    %\addcontentsline{toc}{section}{B1: S&T Quality}
+    %\tableofcontents
+    \mainmatter 
+    %\include{B1}
+     %\addcontentsline{toc}{section}{B2: Training}
+     %\include{B2}
+      %\addcontentsline{toc}{section}{B3: Researcher}
+      \include{cv15}
+			%\include{CV_prive}
+      %\include{publication}
+      %\include{cv_aufdeutsch}
+       %\addcontentsline{toc}{section}{B4: Implementation}
+      % \include{B4}
+        %\addcontentsline{toc}{section}{B5: Impact}
+       % \include{B5}
+         %\addcontentsline{toc}{section}{B6: Ethical issues}
+        % \include{B6}
+ % \include{Endpage}        
+%    \include{Acknowledgements}
+%\end{appendix}
+
+
+
+\normalsize
+\end{document}
