@@ -8,8 +8,8 @@ present revenue source: working 50% at the HU (ending march 2018)
 Keywords
 --
 
-Open science, behavior analysis, drosophila melanogaster, mus musculus
-Open science, Automation, reproducible research workflow, startup
+- Open science, behavior analysis, drosophila melanogaster, mus musculus.
+- Open science, Automation, reproducible research workflow, startup
 
 Present projects
 --
