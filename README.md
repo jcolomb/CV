@@ -5,10 +5,16 @@ looking for: freelance, part-time or full-time jobs
 
 present revenue source: working 50% at the HU (ending march 2018)
 
+Keywords
+--
+
+Open science, behavior analysis, drosophila melanogaster, mus musculus
+Open science, Automation, reproducible research workflow, startup
+
 Present projects
 --
 
-- Open science project(HU Berlin): data management and analysis project: mice home cage monitoring https://github.com/jcolomb/HCS_analysis 
+- Open science project (HU Berlin): data management and analysis project: mice home cage monitoring https://github.com/jcolomb/HCS_analysis 
 - Steering committee of the open science mooc www.opensciencemooc.eu
 - Workshops: data management in a reproducible research workflow https://reproducibleresearch.wordpress.com/workshops/
 - Flystockcleaner: open source Rshiny app: https://colomb.shinyapps.io/Flystockcleaner/
