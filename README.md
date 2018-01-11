@@ -19,6 +19,7 @@ Present projects
 - Workshops: data management in a reproducible research workflow https://reproducibleresearch.wordpress.com/workshops/
 - Flystockcleaner: open source Rshiny app: https://colomb.shinyapps.io/Flystockcleaner/
 - Drososhare GmbH: web-platform facilitating fly transaction between labs www.drososhare.net
+- Service for fly stock curation: https://www.scienceexchange.com/labs/drososhare
 - Co-organiser berlin open science meetup https://www.meetup.com/Berlin-Open-Science-Meetup/
 - Part of the marchforscience berlin team http://marchforscienceberlin.de/wer-wir-sind
 
