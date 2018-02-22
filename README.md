@@ -1,9 +1,9 @@
 Julien Colomb, PhD
 ==
 
-looking for: freelance, part-time job
+looking for: freelance, part-time job, full-time job
 
-present revenue source: working 50% at the HU (ending march 2018) and then 50% at the Uni Leipzig (start around April)
+present revenue source: working 50% at the HU (ending march 2018) 
 
 Keywords
 --
