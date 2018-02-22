@@ -186,3 +186,9 @@ pip-log.txt
 # Mac crap
 .DS_Store
 .Rproj.user
+
+.Rhistory
+
+*.gz
+
+CV/letter_and_CV_juliencolomb.synctex.gz

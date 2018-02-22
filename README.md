@@ -1,9 +1,9 @@
 Julien Colomb, PhD
 ==
 
-looking for: freelance, part-time or full-time jobs
+looking for: freelance, part-time job
 
-present revenue source: working 50% at the HU (ending march 2018)
+present revenue source: working 50% at the HU (ending march 2018) and then 50% at the Uni Leipzig (start around April)
 
 Keywords
 --
@@ -19,17 +19,18 @@ Present projects
 - Workshops: data management in a reproducible research workflow https://reproducibleresearch.wordpress.com/workshops/
 - Flystockcleaner: open source Rshiny app: https://colomb.shinyapps.io/Flystockcleaner/
 - Drososhare GmbH: web-platform facilitating fly transaction between labs www.drososhare.net
+- Service for fly stock curation: https://www.scienceexchange.com/labs/drososhare
 - Co-organiser berlin open science meetup https://www.meetup.com/Berlin-Open-Science-Meetup/
 - Part of the marchforscience berlin team http://marchforscienceberlin.de/wer-wir-sind
 
 Background
 --
 
-- Neurogenetics (Drosophila melanogaster, <10 years)
+- Neurogenetics (Drosophila melanogaster, >10 years)
 - Preclinical studies (mus msuculus, >2 years)
-- Data analysis (R,Rmarkdown,Rshiny)
+- Data analysis (R,Rmarkdown,Rshiny, >5 years)
 - Interest in open science, open data and peer review
-- Founder and CEO of Drososhare.
+- Founder and CEO of Drososhare (since dec. 2012).
 
 
 
