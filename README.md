@@ -1,4 +1,4 @@
-Julien Colomb, Phd
+Julien Colomb, PhD
 ==
 
 looking for: freelance, part-time or full-time jobs
