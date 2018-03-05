@@ -10,7 +10,7 @@
 
 %---Page format for reduction to A4---
 
-\documentclass[a4paper,12pt,twoside]{book}
+\documentclass[a4paper,12pt,twoside]{article}
 \setlength{\voffset}{-5mm} \setlength{\topmargin}{0pt}
 \setlength{\oddsidemargin}{0pt} \setlength{\evensidemargin}{0pt}
 \setlength{\marginparsep}{0pt} \setlength{\marginparwidth}{0pt}
@@ -48,6 +48,7 @@
 %\usepackage{lineno}
 \usepackage{csquotes}
 \usepackage{fancyhdr}
+\usepackage{enumitem} %itemize functions
 
 \newenvironment {legende} [1] {\footnotesize\itshape}
 
@@ -85,6 +86,10 @@
    \newpage%
    \if@twocolumn\hbox{}\newpage\fi\fi\fi}
 \makeatother
+
+\newcommand{\rubrique}[1]{{\textit{\textbf{\large#1}}}\smallskip\\}
+\parindent=0in
+\addtolength{\parskip}{1.4em}
 %---End - Header and footer format---
 
 %       BIBLIOGRAPHY
@@ -101,7 +106,7 @@
 %%\include{Title}
 %\include{TitleA4}
 %\include{dedicace}
-\frontmatter  %%% Concerne la numerotation des pages en preface %%%
+%\frontmatter  %%% Concerne la numerotation des pages en preface %%%
 %\tableofcontents
 %%\listoffigures
 %%\linenumbers %%%concerne la num�rotation des lignes
@@ -154,7 +159,7 @@
  %\include{Frontpage}
     %\addcontentsline{toc}{section}{B1: S&T Quality}
     %\tableofcontents
-    \mainmatter 
+   % \mainmatter 
     %\include{B1}
      %\addcontentsline{toc}{section}{B2: Training}
      %\include{B2}
